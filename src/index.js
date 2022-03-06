@@ -4,14 +4,14 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Todocontainer from './components/todocontainer';
 import {ContextClass} from './todoContext';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 ReactDOM.render(
   <>
     <ContextClass>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter >
     <Todocontainer />
-    </BrowserRouter>
+    </HashRouter>
     </ContextClass>
   </>,
   document.getElementById('root')
