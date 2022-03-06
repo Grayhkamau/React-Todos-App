@@ -9,7 +9,7 @@ import { BrowserRouter } from 'react-router-dom';
 ReactDOM.render(
   <>
     <ContextClass>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Todocontainer />
     </BrowserRouter>
     </ContextClass>
