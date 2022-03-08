@@ -5,6 +5,7 @@ import Inputtodo from './inputTodo';
 import Navbar from './navbar';
 import About from './about';
 import ErrorPage from './error';
+import '../index.css';
 import { Switch, Route } from 'react-router-dom';
 import { TodoContext } from '../todoContext';
 
